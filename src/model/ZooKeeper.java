@@ -3,7 +3,7 @@ package model;
 public class ZooKeeper {
 	
 	public String speak() {
-		return "Feed animals.  Groom animals.  Weigh animals.";
+		return "Feed Animals.  Groom Animals.  Weigh Animals.";
 	}
 
 }

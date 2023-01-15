@@ -1,3 +1,4 @@
+
 import model.Engineer;
 import model.Teacher;
 import model.TruckDriver;
@@ -7,8 +8,9 @@ public class JobBoard {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Engineer brene = new Engineer();
-		System.out.println(brene.speak());
+		
+		Engineer sam = new Engineer();
+		System.out.println(sam.speak());
 		
 		Teacher dawn = new Teacher();
 		System.out.println(dawn.speak());
@@ -18,6 +20,10 @@ public class JobBoard {
 		
 		ZooKeeper michelle = new ZooKeeper();
 		System.out.println(michelle.speak());
+		
+		Teacher uday = new Teacher();
+		System.out.println(uday.speak());
+		
 	}
 
 }
